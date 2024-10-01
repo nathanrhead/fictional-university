@@ -11,5 +11,8 @@ add_action('wp_enqueue_scripts', 'university_files');
 
 function university_features() {
   add_theme_support('title-tag');
+  // register_nav_menu('header_menu_location', 'Header Menu Location');
+  // register_nav_menu('footer_menu_location_one', 'Footer Menu Location One');
+  // register_nav_menu('footer_menu_location_two', 'Footer Menu Location Two');
 }
 add_action('after_setup_theme', 'university_features');
